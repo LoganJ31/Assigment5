@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d8QGQSHxKTaR0bGXezpn7t9r08jscFJvhBUEjWKuEjFh3a5Ad7rpKdS/wrx334EfRrR4EqC3HpdIJDRLic0KLQ==",
+  "dgSpecHash": "spVflrSIm083fkWOdxs/Nwtx4ZH1AwEm8cXMbn/bxljEQrJe+BnCTCf+LB8XARvklyhpJRKlHrzEeY+WuL1Pdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\logan\\Desktop\\Fall2023\\CSCI 213\\Assignments\\Assignment5_JohnsonLogan\\Assigment5\\CSCI213_Assignment5\\CSCI213_Assignment5.csproj",
+  "projectFilePath": "C:\\Users\\logan\\Desktop\\Fall2023\\CSCI 213\\Assignments\\Assignment5_JohnsonLogan\\Assigment5_1\\Assigment5\\CSCI213_Assignment5\\CSCI213_Assignment5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\logan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\logan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
