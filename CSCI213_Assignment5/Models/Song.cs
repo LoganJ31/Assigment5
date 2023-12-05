@@ -7,5 +7,7 @@
         public required string Artist { get; set; }
         public required decimal Price { get; set; }
         public required int Inventory { get; set; }
+        public required string Genre { get; set; }
+        public required Boolean Instrumental { get; set; }
     }
 }

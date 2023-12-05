@@ -10,16 +10,16 @@ using CSCI213_Assignment5.Models;
 
 namespace CSCI213_Assignment5.Controllers
 {
-    public class SongsController : Controller
+    public class SongsAdmin : Controller
     {
         private readonly CSCI213_Assignment5Context _context;
 
-        public SongsController(CSCI213_Assignment5Context context)
+        public SongsAdmin(CSCI213_Assignment5Context context)
         {
             _context = context;
         }
 
-        // GET: Songs
+        // GET: SongsAdmin
         public async Task<IActionResult> Index()
         {
               return _context.Song != null ? 
@@ -27,7 +27,7 @@ namespace CSCI213_Assignment5.Controllers
                           Problem("Entity set 'CSCI213_Assignment5Context.Song'  is null.");
         }
 
-        // GET: Songs/Details/5
+        // GET: SongsAdmin/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Song == null)
@@ -45,18 +45,18 @@ namespace CSCI213_Assignment5.Controllers
             return View(song);
         }
 
-        // GET: Songs/Create
+        // GET: SongsAdmin/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Songs/Create
+        // POST: SongsAdmin/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("SongID,Title,Artist,Price,Inventory")] Song song)
+        public async Task<IActionResult> Create([Bind("SongID,Title,Artist,Price,Inventory,Genre,Instrumental")] Song song)
         {
             if (ModelState.IsValid)
             {
@@ -67,7 +67,7 @@ namespace CSCI213_Assignment5.Controllers
             return View(song);
         }
 
-        // GET: Songs/Edit/5
+        // GET: SongsAdmin/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Song == null)
@@ -83,12 +83,12 @@ namespace CSCI213_Assignment5.Controllers
             return View(song);
         }
 
-        // POST: Songs/Edit/5
+        // POST: SongsAdmin/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("SongID,Title,Artist,Price,Inventory")] Song song)
+        public async Task<IActionResult> Edit(int id, [Bind("SongID,Title,Artist,Price,Inventory,Genre,Instrumental")] Song song)
         {
             if (id != song.SongID)
             {
@@ -118,7 +118,7 @@ namespace CSCI213_Assignment5.Controllers
             return View(song);
         }
 
-        // GET: Songs/Delete/5
+        // GET: SongsAdmin/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Song == null)
@@ -136,7 +136,7 @@ namespace CSCI213_Assignment5.Controllers
             return View(song);
         }
 
-        // POST: Songs/Delete/5
+        // POST: SongsAdmin/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
