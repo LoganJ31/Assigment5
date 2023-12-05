@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\logan\Desktop\Fall2023\CSCI 213\Assignments\Assignment5_JohnsonLogan\Assigment5_1\Assigment5\CSCI213_Assignment5
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/logan/Desktop/Fall2023/CSCI 213/Assignments/Assignment5_JohnsonLogan/Assigment5_1/Assigment5/CSCI213_Assignment5/Views/BrowseSongs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlU29uZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/logan/Desktop/Fall2023/CSCI 213/Assignments/Assignment5_JohnsonLogan/Assigment5_1/Assigment5/CSCI213_Assignment5/Views/BrowseSongs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlU29uZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/logan/Desktop/Fall2023/CSCI 213/Assignments/Assignment5_JohnsonLogan/Assigment5_1/Assigment5/CSCI213_Assignment5/Views/BrowseSongs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlU29uZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/logan/Desktop/Fall2023/CSCI 213/Assignments/Assignment5_JohnsonLogan/Assigment5_1/Assigment5/CSCI213_Assignment5/Views/BrowseSongs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlU29uZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/logan/Desktop/Fall2023/CSCI 213/Assignments/Assignment5_JohnsonLogan/Assigment5_1/Assigment5/CSCI213_Assignment5/Views/BrowseSongs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlU29uZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/logan/Desktop/Fall2023/CSCI 213/Assignments/Assignment5_JohnsonLogan/Assigment5_1/Assigment5/CSCI213_Assignment5/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
