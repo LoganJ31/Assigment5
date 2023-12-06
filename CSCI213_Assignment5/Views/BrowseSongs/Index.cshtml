@@ -4,9 +4,9 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Music Store</h1>
 
-<form asp-controller="Songs" asp-action="Index" method="get">
+<form asp-controller="BrowseSongs" asp-action="Index" method="get">
     <p>
           Genre:  
         <select asp-for="SearchGenre" asp-items="Model.Genres">
