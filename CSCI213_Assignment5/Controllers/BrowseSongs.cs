@@ -45,7 +45,7 @@ namespace CSCI213_Assignment5.Controllers
 
             if (!string.IsNullOrEmpty(SearchArtist))
             {
-                songs = songs.Where(x => x.Artist == SearchArtist);
+                songs = songs.Where(y => y.Artist == SearchArtist);
             }
 
             var songVM = new SongViewModel
